@@ -34,14 +34,14 @@ set afterwards using the `set` methods.
     def getVoltage(self):
         if not self.volts:
             self.volts = self.current * self.resistance
-        print self.volts
+        print(self.volts)
 
     def getCurrent(self):
         if not self.current:
             self.current = self.volts / self.resistance
-        print self.current
+        print(self.current)
 
     def getResistance(self):
         if not self.resistance:
             self.resistance = self.volts / self.current
-        print self.resistance
+        print(self.resistance)
